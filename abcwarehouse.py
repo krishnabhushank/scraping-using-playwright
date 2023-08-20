@@ -11,7 +11,7 @@ def scrape_product_card(product_card):
         brand = 'NA'
 
     try:
-        model = product_card.query_selector('.product-title a span.man-no').text_content()
+        model = product_card.query_selector('.product-title a span.man-no').text_content().strip()
     except AttributeError:
         model = 'NA'
     except KeyError:
@@ -40,14 +40,15 @@ def scrape_product_card(product_card):
         description = 'NA'
 
     try:
-        original_price = product_card.query_selector('.price.old-price').text_content()
+        original_price = product_card.query_selector('.price.old-price').text_content().strip(
+            "Reg. Price").strip().replace(",", "")
     except AttributeError:
         original_price = 'NA'
     except KeyError:
         original_price = 'NA'
 
     try:
-        sale_price = product_card.query_selector('.price.actual-price').text_content()
+        sale_price = product_card.query_selector('.price.actual-price').text_content().replace(",", "")
     except AttributeError:
         sale_price = 'NA'
     except KeyError:
@@ -70,7 +71,7 @@ def main():
         page = browser.new_page()
 
         page.goto(
-            "https://www.abcwarehouse.com/front-load-washers-2", timeout=50000)
+            "https://www.abcwarehouse.com/wall-ovens-2", timeout=50000)
 
         # Wait for the popup to open
         popup_loaded = page.wait_for_selector('.ltkpopup-close', timeout=50000)
@@ -113,8 +114,8 @@ def main():
         browser.close()
 
         # Specify the CSV file path
-        csv_file_path = "C:/Users/kkoneru/Downloads/abcwarehouse_scrape/abcwh_front-load-washers-2.csv"
-        field_names = ["brand", "model", "description", "original_price", "sale_price", "original_price", "product_url", "image_url"]
+        csv_file_path = "C:/Users/kkoneru/Downloads/abcwarehouse_scrape/abcwh_cooking-wall-ovens-2.csv"
+        field_names = ["brand", "model", "description", "original_price", "sale_price", "product_url", "image_url"]
 
         # Open the CSV file in write mode and create a CSV writer
         with open(csv_file_path, mode="w", newline="", encoding="utf-8") as csv_file:
