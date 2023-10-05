@@ -71,7 +71,7 @@ def main():
         page = browser.new_page()
 
         page.goto(
-            "https://www.abcwarehouse.com/wall-ovens-2", timeout=50000)
+            "https://www.abcwarehouse.com/floorcare-accessories-2", timeout=50000)
 
         # Wait for the popup to open
         popup_loaded = page.wait_for_selector('.ltkpopup-close', timeout=50000)
@@ -114,7 +114,7 @@ def main():
         browser.close()
 
         # Specify the CSV file path
-        csv_file_path = "C:/Users/kkoneru/Downloads/abcwarehouse_scrape/abcwh_cooking-wall-ovens-2.csv"
+        csv_file_path = "C:/Users/kkoneru/Downloads/abcwarehouse_scrape/abcwh_vacuums-floorcare-accessories-2.csv"
         field_names = ["brand", "model", "description", "original_price", "sale_price", "product_url", "image_url"]
 
         # Open the CSV file in write mode and create a CSV writer

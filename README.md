@@ -17,3 +17,13 @@ If you Try to install Playwright on Windows 7, you get a message that it it not 
 - Add NODE_SKIP_PLATFORM_CHECK With value as 1
   - ![image2023-7-27 20_35_2.png](images%2Fimage2023-7-27%2020_35_2.png)
 - In Your Scrapy Session, do `playwright install`
+
+## HowTo Consolidate Data from Samsung.com Scraping
+
+```shell
+# For HA Item
+grep , ha*.csv|grep -v "original_price"|sed 's/csv:/csv,/g' > 000_samsung_appliances-consolidated.csv
+# For Non HA
+grep , *.csv|grep -v "original_price"|sed 's/csv:/csv,/g' > 000_samsung_non-appliances-consolidated.csv
+# Add file_name,brand,model,description,original_price,sale_price,product_url,image_url as Header in CSV
+```
