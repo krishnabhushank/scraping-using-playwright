@@ -1,0 +1,25 @@
+File_Name,Category,Sub Cat 1,Sub Cat 2,Link
+computing_tablets.csv,Computing,Products,Tablets,https://www.samsung.com/us/business/mobile/tablets/
+computing_galaxy-books.csv,Computing,Products,Galaxy Book,https://www.samsung.com/us/business/computing/galaxy-books/
+computing_chromebooks.csv,Computing,Products,Chromebook,https://www.samsung.com/us/business/computing/chromebooks/
+computing_monitors.csv,Computing,Products,Monitors,https://www.samsung.com/us/business/computing/monitors/
+computing_memory-storage.csv,Computing,Products,Memory & Data Storage,https://www.samsung.com/us/business/computing/memory-storage/
+computing_accessories.csv,Computing,Products,Accessories,https://www.samsung.com/us/business/computing/computing-accessories/
+displays_signage_4k-uhd.csv,Displays,Digital Signage,4K UHD Signage,https://www.samsung.com/us/business/displays/4k-uhd/
+displays_signage_qled.csv,Displays,Digital Signage,8K QLED Signage,https://www.samsung.com/us/business/displays/qled/
+displays_signage_interactive.csv,Displays,Digital Signage,Interactive & Touch Screen,https://www.samsung.com/us/business/displays/interactive/
+displays_signage_direct-view-led.csv,Displays,Digital Signage,LED Video Wall,https://www.samsung.com/us/business/displays/direct-view-led/
+displays_signage_lcd-videowalls.csv,Displays,Digital Signage,LCD Video Wall,https://www.samsung.com/us/business/displays/lcd-videowalls/
+displays_signage_outdoor-and-window.csv,Displays,Digital Signage,Outdoor & Windows,https://www.samsung.com/us/business/displays/outdoor-and-window/
+displays_signage_standalone.csv,Displays,Digital Signage,Small & Specialty Signage,https://www.samsung.com/us/business/displays/standalone/
+displays_signage_accessories.csv,Displays,Digital Signage,Accessories,https://www.samsung.com/us/business/displays/accessories/
+displays_tvs_hospitality.csv,Displays,TVs,Hospitality TV,https://www.samsung.com/us/business/tvs/hospitality/
+displays_tvs_healthcare.csv,Displays,TVs,Healthcare TV,https://www.samsung.com/us/business/tvs/healthcare/
+displays_tvs_pro-tv.csv,Displays,TVs,Pro TV & Pro TV Terrace Edition,https://www.samsung.com/us/business/displays/pro-tv/
+displays_tvs-sound-bars.csv,Displays,TVs,Sound Bars,https://www.samsung.com/us/business/televisions-home-theater/home-theater/
+displays_tvs-accessories.csv,Displays,TVs,Accessories,https://www.samsung.com/us/business/televisions-home-theater/television-home-theater-accessories/
+mobile_smartphones.csv,Mobile,Products,Smartphones,https://www.samsung.com/us/business/mobile/phones/
+mobile_tablets.csv,Mobile,Products,Tablets,https://www.samsung.com/us/business/mobile/tablets/
+mobile_wearables.csv,Mobile,Products,Watches,https://www.samsung.com/us/business/mobile/wearables/
+mobile_audio.csv,Mobile,Products,Audio,https://www.samsung.com/us/business/mobile/audio/
+mobile_accessories.csv,Mobile,Products,Accessories,https://www.samsung.com/us/business/mobile/mobile-accessories/

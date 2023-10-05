@@ -18,6 +18,15 @@ If you Try to install Playwright on Windows 7, you get a message that it it not 
   - ![image2023-7-27 20_35_2.png](images%2Fimage2023-7-27%2020_35_2.png)
 - In Your Scrapy Session, do `playwright install`
 
+## HowTo run
+
+```shell
+# For HA items
+python samsung.py
+# For Non-HA Items
+python samsung_pu.py # Manually Close Pop-Ups
+```
+
 ## HowTo Consolidate Data from Samsung.com Scraping
 
 ```shell
